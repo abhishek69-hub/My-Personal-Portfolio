@@ -32,11 +32,11 @@ export default function Navbar() {
       <div className='fixed flex flex-col top-[35%] left-0'>
         <ul>
           <li className=' w-[130px] h-[40px] flex justify-between items-center hover:border hover:border-black ml-[-85px] hover:ml-[-10px] duration-300'>
-            <a className='flex justify-between items-center w-full' href="/"> Linked In <FaLinkedin size={25}/> </a>
+            <a className='flex justify-between items-center w-full' href="https://www.linkedin.com/in/abhishek-padhi-00b69418b/" target="_blank"> Linked In <FaLinkedin size={25}/> </a>
           </li>
 
           <li className=' w-[130px] h-[40px] flex justify-between items-center hover:border hover:border-black ml-[-85px] hover:ml-[-10px] duration-300'>
-            <a className='flex justify-between items-center w-full' href="/"> Github <FaGitAlt size={25}/> </a>
+            <a className='flex justify-between items-center w-full' href="https://github.com/abhishek69-hub" target="_blank"> Github <FaGitAlt size={25}/> </a>
           </li>
 
           <li className=' w-[130px] h-[40px] flex justify-between items-center hover:border hover:border-black ml-[-85px] hover:ml-[-10px] duration-300'>
