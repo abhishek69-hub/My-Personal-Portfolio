@@ -6,6 +6,7 @@ import Notes from "../projects/Notes.PNG"
 import Chat from "../projects/Chat.PNG"
 import Portfolio from "../projects/Portfolio.PNG"
 
+
 export default function Work() {
 
 
@@ -28,27 +29,27 @@ export default function Work() {
 
   return (
       <div name="projects" className='bg-white w-full h-fit pb-5'>
-          <div className='max-w-[1100px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
+          <div className='max-w-[1100px] mx-auto p-4 flex flex-col justify-center w-full h-full md:w-10/12 max-w-[1100px] '>
               <div className='pb-4'>
-                  <p className='text-2xl sm:text-5xl font-bold text-blue-900 text-left underline my-5'>Work</p>
-                  <p className='my-2 pb-6 text-left'>These are some of my recent projects: </p>
+                  <p className='text-2xl sm:text-4xl font-bold text-blue-900 text-left underline my-5 pl-6 md:text-5xl'>Work</p>
+                  <p className='my-2 pb-6 text-left pl-6'>These are some of my recent projects: </p>
 
               </div>
 
-              <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4  gap-y-8  '>
+              <div className=' flex flex-col items-center my-2 lg:grid grid-cols-2 pl-5 max-w-[1000px] 2xl:grid-cols-3 gap-x-6  gap-y-8  '>
                   <div class="max-w-sm rounded overflow-hidden shadow-lg hover:scale-95 group duration-200 content-div">
                       <img class="w-full opacity-100 group-hover:opacity-20" src={Netflix} alt="Sunset in the mountains" />
 
                       <div className='mx-auto pt-3 flex flex-row justify-center item-center'>
                               <a className='px-3' href="/">
-                              <button class="  bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
+                              <button class="  bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white">
                                   <span><a href="https://frabjous-tanuki-ca7659.netlify.app/" target="_blank">Demo</a> </span>
                                   
                               </button>
                               </a>
 
                               <a href="/">
-                              <button class="  bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
+                              <button class="  bg-transparent group-hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:text-white">
                                   <span><a href="https://github.com/abhishek69-hub/Netflix-Frontend-Clone" target="_blank">Code</a></span>
                                   
                               </button>
@@ -57,7 +58,7 @@ export default function Work() {
 
                       <div class="px-6 py-4 opacity-100 group-hover:opacity-20">
                           <div class="font-bold text-xl mb-2">Netflix Clone</div>
-                          <p class="text-gray-700 text-base">
+                          <p className="text-gray-700 text-sm md:text-base">
                               This Netflix clone has been made by using React JS,Tailwind CSS and Firebase in the backend.
                           </p>
                       </div>
@@ -69,13 +70,13 @@ export default function Work() {
 
                       <div className='mx-auto pt-3'>
                               <a className='px-3' href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200" onClick={alertinshorts}>
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white" onClick={alertinshorts}>
                               <span>Demo</span>
                               </button>
                               </a>
 
                               <a href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white">
                               <span><a href="https://github.com/abhishek69-hub/Inshorts-News-App-clone" target="_blank">Code</a></span>
                               </button>
                               </a>
@@ -83,7 +84,7 @@ export default function Work() {
 
                       <div class="px-6 py-4 opacity-100 group-hover:opacity-20">
                           <div class="font-bold text-xl mb-2">Inshorts Clone</div>
-                          <p class="text-gray-700 text-base">
+                          <p class="text-gray-700 text-sm md:text-base">
                               This Inshorts clone has been made by using React JS,Tailwind CSS and News API to fetch the data
                           </p>
                       </div>
@@ -94,13 +95,13 @@ export default function Work() {
 
                       <div className='mx-auto pt-3'>
                               <a className='px-3' href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
-                              <span><a href="https://frabjous-tanuki-ca7659.netlify.app/" target="_blank">Demo</a> </span>
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white">
+                              <span><a href="https://abhishek69-hub.github.io/Notes-App/" target="_blank">Demo</a> </span>
                               </button>
                               </a>
 
                               <a href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white">
                               <span><a href="https://github.com/abhishek69-hub/Notes-App" target="_blank">Code</a></span>
                               </button>
                               </a>
@@ -108,7 +109,7 @@ export default function Work() {
 
                       <div class="px-6 py-4 opacity-100 group-hover:opacity-20">
                           <div class="font-bold text-xl mb-2">Notes App</div>
-                          <p class="text-gray-700 text-base">
+                          <p class="text-gray-700 text-sm md:text-base">
                               This Notes App has been made by using HTML,Bootstrap and Vanilla JavaScript.
                           </p>
                       </div>
@@ -119,13 +120,13 @@ export default function Work() {
 
                       <div className='mx-auto pt-3'>
                               <a className='px-3' href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200" onClick={showNote}>
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white" onClick={showNote}>
                               <span>Demo</span>
                               </button>
                               </a>
 
                               <a href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white">
                               <span><a href="https://github.com/abhishek69-hub/NewChat" target="_blank">Code</a></span>
                               </button>
                               </a>
@@ -133,7 +134,7 @@ export default function Work() {
 
                       <div class="px-6 py-4 opacity-100 group-hover:opacity-20">
                           <div class="font-bold text-xl mb-2">Chat App</div>
-                          <p class="text-gray-700 text-base">
+                          <p class="text-gray-700 text-sm md:text-base">
                               This Chat App has been made by using HTML,CSS,Vanilla JavaScript and Node JS.
                           </p>
                       </div>
@@ -144,21 +145,21 @@ export default function Work() {
 
                       <div className='mx-auto pt-3'>
                               <a className='px-3' href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
-                              <span><a href="https://frabjous-tanuki-ca7659.netlify.app/" target="_blank">Demo</a> </span>
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white"  onClick={showNote}>
+                              <span>Demo </span>
                               </button>
                               </a>
 
                               <a href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
-                              <span><a href="https://github.com/abhishek69-hub/Netflix-Frontend-Clone" target="_blank">Code</a></span>
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white">
+                              <span><a href="https://github.com/abhishek69-hub/Spotify-Clone" target="_blank">Code</a></span>
                               </button>
                               </a>
                         </div>
 
                       <div class="px-6 py-4 opacity-100 group-hover:opacity-20">
                           <div class="font-bold text-xl mb-2">Spotify Clone</div>
-                          <p class="text-gray-700 text-base">
+                          <p class="text-gray-700 text-sm md:text-base">
                               This Spotify clone has been made by using HTML,CSS and Vanilla JavaScript.
                           </p>
                       </div>
@@ -169,13 +170,13 @@ export default function Work() {
 
                       <div className='mx-auto pt-3'>
                               <a className='px-3' href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
-                              <span><a href="https://frabjous-tanuki-ca7659.netlify.app/" target="_blank">Demo</a> </span>
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white">
+                              <span><a href="/" >Demo</a> </span>
                               </button>
                               </a>
 
                               <a href="/">
-                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200">
+                              <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded px-3 group-hover:scale-110 duration-200 group-hover:bg-blue-500 group-hover:text-white">
                               <span><a href="https://github.com/abhishek69-hub/My-Personal-Portfolio" target="_blank">Code</a></span>
                               </button>
                               </a>
@@ -183,7 +184,7 @@ export default function Work() {
 
                       <div class="px-6 py-4 opacity-100 group-hover:opacity-20">
                           <div class="font-bold text-xl mb-2">Portfolio</div>
-                          <p class="text-gray-700 text-base">
+                          <p class="text-gray-700 text-sm md:text-base">
                               This Spotify clone has been made by using React JS and Tailwind CSS
                           </p>
                       </div>

@@ -38,13 +38,9 @@ export default function Navbar() {
           <li className=' w-[130px] h-[40px] flex justify-between items-center hover:border hover:border-black ml-[-85px] hover:ml-[-10px] duration-300'>
             <a className='flex justify-between items-center w-full' href="https://github.com/abhishek69-hub" target="_blank"> Github <FaGitAlt size={25}/> </a>
           </li>
-
+          
           <li className=' w-[130px] h-[40px] flex justify-between items-center hover:border hover:border-black ml-[-85px] hover:ml-[-10px] duration-300'>
-            <a className='flex justify-between items-center w-full' href="/"> Mail  <FaEnvelope size={25}/> </a>
-          </li>
-
-          <li className=' w-[130px] h-[40px] flex justify-between items-center hover:border hover:border-black ml-[-85px] hover:ml-[-10px] duration-300'>
-            <a className='flex justify-between items-center w-full' href="/"> Resume <FaClipboardList size={25}/> </a>
+            <a className='flex justify-between items-center w-full' href="https://drive.google.com/drive/u/0/folders/1l0YfQe5ac44mJmVUyHI_OkL-xgT2g9ig" target="_blank"> Resume <FaClipboardList size={25}/> </a>
           </li>
         </ul>
 
